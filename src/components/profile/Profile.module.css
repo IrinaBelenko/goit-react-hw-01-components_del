@@ -1,0 +1,40 @@
+.profile {
+  width: 300px;
+}
+
+.description {
+  background-color: rgb(213, 244, 245);
+  margin: 0;
+}
+
+.avatar {
+  width: 300px;
+  background-color: white;
+}
+
+.name,
+.tag,
+.location {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 5px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: rgb(200, 221, 245);
+  padding: 10px 5px;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
